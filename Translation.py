@@ -9,7 +9,6 @@ def translation():#Translation and proteinchain preperation
         if a in ["ATT","ATC","ATA"]:
             protein_chain.append("Isoleucine")
         elif a in ["CTT", "CTC", "CTA", "CTG", "TTA", "TTG"]:
-            
             protein_chain.append("Leucine")
         elif a in ["GTT", "GTC","GTA", "GTG"]:
             protein_chain.append("Valine")
@@ -90,13 +89,4 @@ print(protein_chain)
 
 
 
-# y="TATTAT"
-#for y in genome:
-    #if y="TATTAT
-
-
-
-
-#atcggcactagatcttcaccagcccgctgctcacttgtcatgaataagtgaataaataac
-#ttgtccctacggttggacgcctcaggtagacgcctaatgc
 
