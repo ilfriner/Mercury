@@ -48,9 +48,6 @@ def translation():#Translation and proteinchain preperation
             protein_chain.append("Arganine")
         elif a in ["UAA","UAG","UGA"]:
             print("Code terminated, Output protein chain is: \n")
-            n1=Fragments.index("UAA")
-            n2=Fragments.index("UAG")
-            n3=Fragments.index("UGA")
             return protein_chain
 
 
