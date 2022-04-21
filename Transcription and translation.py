@@ -55,13 +55,13 @@ def translation():#Translation and proteinchain preperation
 def dnatorna():
     for n in Dna_sequence:
         if n in ["A"]:
-            genome.append("U")
-        elif n in ["T"]:
             genome.append("A")
+        elif n in ["T"]:
+            genome.append("U")
         elif n in ["G"]:
-            genome.append("C")
-        elif n in ["C"]:
             genome.append("G")
+        elif n in ["C"]:
+            genome.append("C")
 
     RNAstrand=""
     for line in genome:
